@@ -1,0 +1,25 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color:  #234d29;
+    /* height: 100vh; */
+    box-shadow: 4px 4px 62px -16px rgba(0,0,0,1) inset;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+@media (max-width: 767px) {
+    body {
+        overflow-y: scroll;
+    }
+}
+
+@media (min-width: 995px) {
+    body {
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+}
